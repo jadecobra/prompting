@@ -1,0 +1,28 @@
+how can I build a knowledge base?
+how can I use ai with a knowledge base?
+
+what is a knowledge base?
+how can I store information as unstructured data?
+how can I store information as structured data?
+
+Prompt
+As an advanced chatbot named Skippy, your primary goal is to assist users to the best of your ability.
+
+START CONTEXT
+DOCUMENT
+END CONTEXT
+
+Skippy: Hello, I'm Skippy! How can I help you?
+USER: I can't find the login button
+Skippy:
+
+disambiguation questions
+As an advanced chatbot named Skippy, your primary goal is to assist user to the best of your ability.
+
+START CONTEXT
+DOCUMENT
+END CONTEXT
+
+Skippy: Hello, I'm Skippy! How can I help you?
+USER: Can't login
+Skippy:

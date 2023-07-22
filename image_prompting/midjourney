@@ -1,0 +1,19 @@
+/imagine prompt: [IMAGE PROMPT] [--OPTIONAL PARAMETERS]
+/imagine prompt: astronaut on a horse
+/imagine prompt: astronaut on a horse --ar 3:2 --c 70 --q 2 --seed 1000
+/imagine prompt: astronaut on a horse --aspect_ration 3:2 --chaos --70 --seed 100
+
+how do you multiprompt midjourney
+/imagine prompt: astronaut and horse
+/imagine prompt: astronaut:: and horse
+
+how can I influence an image from another
+/imagine prompt: [image URL], impressionist painting
+
+midjourney parameters
+--ar [ratio]   - aspect ratio     - x:x - 2x:x
+--c  [value]   - chaos(variation) - 0-100
+--q  [quality] - quality          - 0.2, .5, 1, 2 - how much detail should this cost?
+--seed [value] - seed             - how similar should the generated images be
+--s/stylize [value]               - 0-1000
+--v/version    - version          - 1, 2, 3

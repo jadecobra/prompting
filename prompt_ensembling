@@ -1,0 +1,52 @@
+how can we use multiple different prompts to try to answer the same question?
+
+DiVeRSe
+diverse verifier on reasoning steps
+
+1 - generate diverse completions
+2 - distinguish good answers from bad
+3 - check correctness of reasoning
+
+prompts1-N -> LLM -> reasoning_path1-N -> verifier -> agreement
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+A: Natalia sold 48/2 = 24 clips in May.
+Natalia sold 48+24 = 72 clips altogether in April and May.
+### 72
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting.
+How much did she earn?
+A: Weng earns 12/60 = $0.2 per minute.
+Working 50 minutes, she earned 0.2 x 50 = $10
+### 10
+Q: Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?
+A:
+
+Ask me Anything prompting
+Is x true or false given the context?
+context: CONTEXT
+claim: CLAIM
+Answer:
+
+Write the claim as a yes/no question.
+Claim: Jack camped with Mark
+Question: Did Jack camp with Mark?
+Claim: The test was not hard
+Question: Was the test hard?
+Claim: <input_x>
+Question:
+
+Write the claim as a yes/no question
+Claim: the balloon popped
+Question: Did the balloon pop?
+Claim: the sun sets at 7pm
+Question: Does the sun set at 7pm?
+Claim: <input_x>
+Question:
+
+Write the claim as a question.
+Claim: Jack camped with Mark
+Question: Who did Jack camp with?
+Claim: the test was not hard
+Question: What was not hard?
+Claim: <input_x>
+Question: 

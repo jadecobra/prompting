@@ -1,0 +1,68 @@
+how can we get insight into the reasoning of the model?
+what is the chain of thought of the model?
+what sequence of statements does the model generate to reach an answer?
+what is system 1 thinking?
+what is system 2 thinking?
+
+what happens if we reorder the items in teh question?
+how can we reword the question?
+is prompt engineering refactoring?
+how can we add additional context?
+
+
+original prompt
+Which one of the following, if true, most strengthens the argument?
+
+reword
+Identify each choice as strengthens, weakens or doesn't impact the argument.
+
+How to disable computation
+Give the expression as answer, not a number
+
+How to solve discussion questions
+Respond to the following:
+DISCUSSION_QUESTION
+
+what is the format?
+what is the content?
+how can I remove ambiguity from this request?
+
+Write a highly detailed essay with introduction, body, and conclusion paragraphs responding to the following:
+DISCUSSION_QUESTION
+
+ineffective prompt
+The Civil War a conflict over expansion? Agree or Disagree and why?
+
+better defined prompt
+Explain the causes of the Civil War and whether expansion played a role in the conflict.
+Include evidence to support your argument
+
+add formatting and context directions
+Write a highly detailed discussion response,
+in the structure of an essay,
+responding to the following prompt:
+
+Explain the causes of the Civil War and whether expansion played a role in the conflict.
+Include evidence to support your argument
+
+How can I automate well defined prompt rewriting?
+How can I automatically refactor prompts?
+I am trying to get good results from GPT-3 on the following prompt: "PROMPT".
+Could you write a better prompt that is more optimal for GPT-3 and would produce better results?
+
+How can I refine the results?
+Generate a few
+
+Iteration
+"Is math invented or discovered? Use careful reasoning to explain your answer"
+
+Write a beginning paragraph responding to the following:
+Is math invented or discovered? Use careful reasoning to explain your answer
+
+I am writing a detailed short essay responding to the following prompyt:
+Is math invented or discovered? Use careful reasoning to explain your answer.
+Here is what I have so far:
+SELECTED OUTPUT FROM PREVIOUS PROMPT
+Write the next paragraph of my essay
+
+How can I use expansion prompts?

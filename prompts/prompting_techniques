@@ -1,0 +1,102 @@
+- chain_of_thought
+- zero_shot_chain_of_thought
+- self_consistency
+- generated_knowledge
+- least_to_most
+
+- Chain of Thought
+Standard Prompt
+Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
+
+A: The answer is 11.
+
+Q: The cafeteria has 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?
+A:
+
+Chain of Thought Prompt
+Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
+
+A: Roger started with 5 balls. 2 cans of 3 tennis balls each is 6 tennis balls. 5 + 6 = 11. The answer is 11.
+
+Q: The cafeteria has 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?
+
+explain reasoning process with few shot exemplars
+
+- Zero Shot Chain of Thought
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there?
+A: Let's think step by step
+
+
+- Self-consistency
+Q: if there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+A: There are 3 cars in the parking lot already. 2 more arrive. Now there are 3 + 2 = 5 cars. The answer is 5
+...
+Q: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder for $2 per egg. How much does she make every day?
+A:
+
+Classify the above email as IMPORTANT or NOT IMPORTANT as it relates to a software company.
+Let's think step by step
+
+
+- Generated Knowledge
+single prompt
+Generate 4 facts about the Kermode bear, then use these facts to write a short blog post using the information:
+
+dual prompt
+Generate 10 facts about the Kermode bear:
+...
+FACTS
+Use the facts above to write a one paragraph blog post about the Kermode bear:
+
+Standard prompt with incorrect response
+Which country is larger, Congo or South Africa?
+
+knowledge generation prompt
+Generate some knowledge about the sizes of South Africa and Congo:
+KNOWLEDGE/FACTS
+Which country is larger, Congo or South Africa?
+
+generate knowledge
+integrate knowledge
+
+generate set of facts about question.
+
+Generate some numerical facts about objects. Examples:
+Input: penguins have <mask> wings.
+Knowledge: Birds have two wings. Penguin is a kind of bird.
+...
+Input: a typical human being has <mask> limbs.
+Knowledge: Human has two arms and two legs.
+
+Input: {question}
+Knowledge:
+
+Knowledge augmented question
+Most Kangaroos have <mask\> limbs. Kangaroos are marsupials that live in Australia.
+Most Kangaroos have <mask\> limbs. Kangaroos are marsupials that have 5 limbs.
+
+Recitation-Augmented Language models
+Question: who wrote the song i hate you i love you
+Recitation: "I Hate U, I Love U" (stylized in all lowercase) is a song by American singer and rapper Gnash featuring American singer Olivia O'Briend.
+Answer: Gnash
+...
+Question: who the school for good and evil
+
+- least to most
+
+problem reduction
+Q: It takes Amy 4 minutes to climb to the top of a slide.
+It takes her 1 minute to slide down.
+The water slide closes in 15 minutes.
+How many times can she slide before it closes?
+
+sequentially solve subquestions
+It takes Amy 4 minutes to climb to the top of a slide.
+It takers her 1 minute to slide down.
+The slide closes in 15 minutes.
+Q: How long does each trip take?
+...
+Q: How many times can she slide before it closes?
+
+INQUIRY
+What subproblems must be solved before answering the inquiry?

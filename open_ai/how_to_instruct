@@ -1,0 +1,13 @@
+start with a system message. e.g.
+You are ChatGPT, a large language model trained by OpenAI.
+Answer as concisely as possible.
+Knowledge cutoff: {knowledge_cutoff}
+Current date: {current_date}
+
+how can I make my instruction more explicit?
+How can I specify the format I want the answer in?
+think step by step
+debate pros and cons before settling on an answer
+
+how can I make the output more random? increase temperature past 0.5
+how can I make the output more focused and deterministic? decrease temperature past 0.5

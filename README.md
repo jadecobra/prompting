@@ -1,1 +1,21 @@
-# prompting
+# Notes on LLM Prompting
+- awesome chatgpt prompts
+- image prompting
+- prompt hacking
+- prompts
+- advanced application
+- applied prompting
+- basic applications
+- basics
+- build chatgpt from gpt-3
+- chatbot basics
+- editing strategies
+- how to engineer prompts
+- ideas
+- knowledge base
+- LLM self evaluation
+- LLM settings
+- math
+- production
+- prompt ensembling
+- reliability

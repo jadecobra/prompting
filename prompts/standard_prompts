@@ -1,0 +1,22 @@
+what is the x of y?
+
+qa format
+Q: What is the x of y?
+A:
+
+what is a standard prompt with exemplars?
+
+few_shot_standard_prompt
+What is the capital of Spain?
+Madrid
+What is the capital of Italy?
+Rome
+What is the capital of France?
+
+few_shot_standard_prompt_in_qa_format
+Q: What is the capital of Spain?
+A: Madrid
+Q: What is the capital of Italy?
+A: Rome
+Q: What is the capital of France?
+A:

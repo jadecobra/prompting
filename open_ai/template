@@ -1,0 +1,63 @@
+messages = [
+    {
+        'role': 'system | user | assistant',
+        'name': 'name',
+        'content': 'content'
+    }
+]
+
+# how can I set the behavior of the assistant? system message - you are a helpful assistant
+# how can I instruct the assistant? user message
+# how can I store prior responses? assistant messaeg.
+
+# response format
+{
+    'id': ID,
+    'object': 'chat.completion',
+    'created': 1234567890,
+    'model': 'gpt-3.5-turbo',
+    'usage': {
+        'prompt_tokens': 123,
+        'completion_tokens': 123,
+        'total_tokens': 123,
+    },
+    'choices': [
+        {
+            'message': {
+                'role': ROLE,
+                'content': CONTENT
+            },
+            'finish_reason': 'stop' | 'length' | 'content_filter' | None,
+            'index': 0
+        }
+    ]
+}
+
+# how can I extract the assistant's response?
+response['choices'][0]['message']['content']
+
+# what affects the API call costs moneywise - total number of tokens
+# what affects the API call costs timewise  - total number of tokens
+# what affects if the API call works        - total number of tokens
+
+# how can I check the token usage?
+response['usage']['total_tokens']
+
+messages = [
+  {"role": "system", "content": "You are a helpful, pattern-following assistant that translates corporate jargon into plain English."},
+  {"role": "system", "name":"example_user", "content": "New synergies will help drive top-line growth."},
+  {"role": "system", "name": "example_assistant", "content": "Things working well together will increase revenue."},
+  {"role": "system", "name":"example_user", "content": "Let's circle back when we have more bandwidth to touch base on opportunities for increased leverage."},
+  {"role": "system", "name": "example_assistant", "content": "Let's talk later when we're less busy about how to do better."},
+  {"role": "user", "content": "This late pivot means we don't have time to boil the ocean for the client deliverable."},
+]
+
+model = "gpt-3.5-turbo-0301"
+
+print(f"{num_tokens_from_messages(messages, model)} prompt tokens counted.")
+# Should show ~126 total_tokens
+
+[
+  {"role": "system", "content": "You are a helpful assistant that translates English to French."},
+  {"role": "user", "content": 'Translate the following English text to French: "{text}"'}
+]

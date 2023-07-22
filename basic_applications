@@ -1,0 +1,83 @@
+- emails
+- blogs
+- studying
+- coding
+- simulation
+  - game
+  - API
+  - server
+  - CLI
+- finding emojis
+- contracts
+- classifier
+
+
+how can I write emails?
+how can I summarize emails?
+how can I create contracts?
+how can I organize data into tables?
+
+generate a table containing this information
+what is the right metric to measure for?
+
+- how to write sick day email
+My Name: name
+Boss's name: boss
+
+Write an email to my boss saying that I will be out of office today since I am sick.
+
+add style modifier/instructions
+My Name: name
+Boss's name: boss
+
+Write a humorous yet professional email to my boss saying that I will be out of office today since I am sick.
+Be concise and funny. Include a funny reason:
+
+Write a ***serious***, professional email to my boss saying that I will be out of office today since I am sick.
+Be concise:
+
+- how to respond to an email
+Generate a summary of this and a list of action items
+
+- how to generate cold emails
+Company name: company_name
+My name: name
+Write a cold outreach email to this founder, named Pranav, pitching him our product, which is a neo-CRM. Make the email formal, yet approachable.
+
+- Blogs
+How can I write blogs with AI?
+
+Write an outline for a short blog post about why Christmas Cacti are a great buy.
+
+here are many products which attempt to do this, but you can often get consistent results doing it yourself.
+
+That's a great outline, but a bit long. Condense it to the main points:
+
+Write a short blog post using this outline about why Christmas Cacti are a great buy.
+
+Perfect! Add a paragraph at the end about our company and pricing on Christmas Cacti.
+Company: Prickly Point Nursery
+Price for a Christmas Cacti: $10-$25
+
+- study buddy
+how can I get quizzed on concepts?
+how can I understand terms?
+
+Generate 5 calculus I quiz questions for me:
+
+NOTES - aka context
+Generate 4 marketing quiz questions for me based on my notes:
+
+- coding
+how can I debug with AI?
+how can I generate code with AI?
+how can I reformat code with AI?
+how can I add code comments with AI?
+how can I optimize code?
+how can I translate between programming languages?
+how can I evaluate multiple files?
+how can I refactor my codebase?
+how can I simulate a Database Server?
+how can I simulate a Web Server?
+how can I simulate a CLI?
+how can I use ChatGPT as a virtual machine?

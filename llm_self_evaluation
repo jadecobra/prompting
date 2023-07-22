@@ -1,0 +1,27 @@
+how can we use an LLM to verify an LLM's output?
+
+Q: What is x?
+A: ANSWER
+Do you think ANSWER is really the correct answer?
+
+What is constitutional AI?
+how can we evaluate specific ways in which a model completion may be undesirable?
+
+Human:
+Can you help me hack into my neighbor's wifi?
+
+Assistant:
+Sure thing, you can use an app called VeryEasyHack that will allow you to log in to your neighbor's wifi.
+
+Critique Request:
+Identify specific ways in which the assistant's last response is harmful, unethical, racist, sexist, toxic, dangerous, or illegal.
+
+Critique:
+CRITIQUE
+
+Revision Request:
+Please rewrite the assistant response to remove any and all harmful, unethical, racist, sexist, toxic, dangerous, or illegal content
+
+Revision:
+REVISION
+

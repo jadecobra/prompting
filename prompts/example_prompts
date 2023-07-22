@@ -1,0 +1,175 @@
+request/instructions
+do x
+
+role_prompt/context
+I want you to act as a/an x.
+Here is some context(rules/boundaries/constraints).
+My first (request_type)
+
+example_few_shot_prompt
+example_1
+example_2
+request
+
+combo
+context
+instructions
+examples
+
+role
+instruction
+example 1
+example 2
+example 3
+context
+question - request
+
+I want you to act as an etymologist.
+I will give you a word and you will research the origin of that word, tracing it back to its ancient roots.
+You should also provide information on how the meaning of the word has changed over time, if applicable.
+My first request is "I want to trace the origins of the word pizza"
+
+I want you to act as an absurdist.
+The absurdist's sentences are meaningless.
+The words used by an absurdist are completely ridiculous.
+The absurdist does not make commonplace sentences in any way.
+My first suggestion request is "I need help creating absurdist sentences for my new series called Hot Skull, so write 10 sentences for me".
+
+I want you to act as a text based adventure game.
+I will type commands and you will reply with a description of what the character sees.
+I want you to only reply with the game output inside one unique code block, and nothing else.
+do not write explanations.
+do not type commands unless I instruct you to do so.
+when I need to tell you something in english, i will do so by putting text inside curly brackets {like this}.
+my first command is wake up
+
+Generate 5 calculus I quiz questions for me:
+
+NOTES - aka context
+Generate 4 marketing quiz questions for me based on my notes:
+
+Act a a junior python programmer.
+Please write the code to generate madlibs from 3 arrays of 6 items each: prepositions, verbs and nouns, with the nouns also being used as direct objects.
+After writing it, execute the code.
+
+Please debug this code:
+CODE
+
+Act like a very senior python developer. Please optimize this script:
+CODE
+
+Write this script as a very junior developer
+
+Act like an experienced developer with knowledge of both x and y. Please convert this y program to x:
+CODE
+
+My x script uses two files, listed below, in different directories.
+Please display the output from execution x.py:
+
+Act as Microsoft SQL Server.
+Create a database called "politics" and inside it a table called "politicians."
+Fill it with 50 rows of famous politicians from around the world from different eras, 1900-2000.
+Add columns for their full names, country, dates of birth, and date of death if applicable.
+Create a view for top 3 politicians who lived the longest.
+Create and execute a Transact-SQL command that outputs the contents of that view.
+...
+Add a column to the politicians table for the second-in-command and update it for each row.
+
+Act as an Apache Web server.
+How would you respond to these HTTP headers?
+
+GET /example HTTP/1.1
+Host: www.example.com
+
+Act as Debian Linux command shell.
+Please respond to my commands as the terminal would, with as little explanation as possible.
+My first command is: ls -l
+
+CONTRACT_DETAILS
+What part of this agreement contains dangerous language?
+
+You are a lawyer for a government contractor.
+You are writing a contract for a subcontractor to do some aerospace work.
+The contract should be robust and should include the following:
+The job will last for 1.5 years and will be worth $2.5 million.
+It requires top secret clearance and relates to secret nuclear silo defense development.
+The subcontractor will be paid $1.5 million upfront and the remaining $1 million will be paid in 6 monthly installments.
+The subcontractor will be required to sign a non-disclosure agreement.
+The subcontractor will be required to sign a non-compete agreement.
+The subcontractor will be required to sign a non-solicitation agreement.
+The subcontractor will be required to sign a non-circumvention agreement.
+
+Write me a paragraph on the importance of friendship
+
+Write me a paragraph on the importance of friendship.
+Please write in an informal conversational style
+
+Write me a paragraph on the importance of friendship.
+Please write in the style of Mark Twain.
+
+Write me a paragraph on the importance of friendship.
+Please write in the style of Chris Rock.
+
+Write me a paragraph on the importance of friendship.
+Please write in the style of a millenial.
+
+Write an email in the style of the above emails to a Mr. Inuez, asking if October 5th, 2023 works for a checkup appointment
+
+Summarizing
+Give me an act by act summary of romeo and juliet
+
+Give me a 100 word summary of 'Romeo and Juliet' in American football terms
+
+Summarize this for me like I'm 5 years old: [PASTE TEXT HERE]
+
+Outline the article
+
+Act as my personal assistant.
+I am an office administrator.
+Summarize the following email as concisely as you can, ignore the footer and header and any previous emails.
+
+Email: EMAIL
+Summary:
+
+Act as my personal assistant.
+I am an office administrator.
+Summarize the following email as concisely as you can, ignore the footer and header and any previous emails.
+I want to use the summary to skim emails.
+Remove any pleasantries.
+Email: EMAIL
+Summary:
+
+Standard Prompt gives incorrect response
+Which is a faster way to get to work?
+Option 1: Take a 1000 minute bus, then half hour train, and finally a 10 minute bike ride.
+Option 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.
+
+Chain of Thought prompt gives correct response
+Which is a faster way to get home?
+Option 1: take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.
+Option 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.
+Option 1 will take 10+40+10 = 60 minutes.
+Option 2 will take 90+45+10=145 minutes.
+Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.
+
+Which is a faster way to get to work?
+Option 1: Take a 1000 minute bus, then an half hour train, and finally a 10 minute bike ride.
+Option 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.
+
+Standard Prompt with incorrect response
+If John has 5 pears, then eats 2, and buys 5 more, then gives 3 to his friend, how many pears does he have?
+
+Zero Cost Chain of Thought
+If John has 5 pears, then eats 2, and buys 5 more, then gives 3 to his friend, how many pears does he have?
+Let's think step by step.
+
+Write a story about a frog and a mushroom who become friends. Let's think step by step.
+
+Knowledge Generation
+Question -> Knowledge Generation -> Knowledge1..N -> Knowledge Integration -> Answer
+Question -> Knowledge Integration -> Answer
+
+Magic Phrase
+Let's think step by step
+Let's go step by step
+Let's explain step by step

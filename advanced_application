@@ -1,0 +1,40 @@
+- using tools
+- reason and act - ReAct
+- program-aided language models - PAL
+
+what is modular reasoning, knowledge and language?
+what is MRKL system? miracle system?
+how can I combine LLM and external tools to solve complex problems?
+
+what modules can be combined with an LLM system?
+
+
+What is 100*100?
+CALCULATOR[100*100]
+
+
+What is the price of Apple stock right now?
+The current price is DATABASE[SELECT price FROM stock WHERE company = "Apple" and time = "now"]
+
+
+What is the weather like in New York?
+The weather is WEATHER_API[New York]
+
+what is reinforcement learning?
+What is the loop of state, action, reward
+
+Program-aided reasoning
+Q: Roger has 5 tennis balls.
+He buys 2 more cans of tennis balls.
+Each can has 3 tennis balls.
+How many tennis balls does he have now?
+
+A: Roger started with 5 tennis balls.
+tennis_balls = 5
+2 cans of tennis balls each is
+bought_balls = 2 * 3
+tennis balls. The answer is
+answer = tennis_balls + bought_balls
+
+Q: The bakers at the Beveryly Hills Bakery baked 200 loaves of bread on Monday morning.
+They sold 93 loves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loves of bread did they have left?

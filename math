@@ -1,0 +1,81 @@
+Q: At a restaurant, each adult meal costs $5 and kids eat free.
+If a group of 15 people came in and 8 were kids,
+how much would it cost for the group to eat?
+
+Qt: At a restaurant, each adult meal costs A and kids eat free.
+If a group of B people came in and C were kids,
+how much would it cost for the group to eat?
+Mapping: {A:5, B:15, C:8}
+
+Algebraic prompt
+Write a mathematical equation and generate the answer format string with `Answer=`
+
+Python prompt
+Write a python function that returns the answer
+
+Input Query -> Generating Algebraic Template -> Math Prompts -> Compute Verification -> Statistical Significance
+
+How to generate an algebraic template
+Q: A zoo charged $12 per adult ticket and allows children under 5 to enter for free.
+A family of 4 adults and 2 children under 5 visit the zoo.
+What is the total cost for the family to enter?
+Qt: At a zoo, each adult ticket costs $A and children under 5 can enter for free.
+If a family of B adults and C children under 5 visit the zoo, what is the total cost for the family to enter?
+Mapping: {A: 12, B: 4, C: 2}
+
+Q: A store sells shoes at $60 per pair and socks at $8 per pair.
+If a customer buys 2 pairs of shoes and 3 pairs of socks,
+What is the total cost of the purchase?
+Qt: At a store, shoes cost $A per pair and socks cost $B per pair.
+If a customer buys C pairs of shoes and D pairs of socks,
+What is the total cost of the purchase?
+Mapping: {A: 60, B: 8, C: 2, D: 3}
+
+Q: At a restaurant, each adult meal costs $5 and kids eat free.
+If a group of 15 people came in and 8 were kids,
+how much would it cost for the group of eat?
+
+Algebraic statement
+Qt: At a zoo, each adult ticket costs $A and children under 5 can enter for free.
+If a family of B adults and C children under 5 visit the zoo, What is the total cost for the family to enter?
+Mapping: {A: 12, B: 4, C: 2}
+
+Write a mathematical equation and generate the answer format start with `Answer =`
+
+Answer = A \* B
+
+Qt: At a store, shoes cost $A per pair and socks cost $B per pair.
+If a customer buys C pairs of shoes and D pairs of socks, What is the total cost of the purchase?
+Mapping: {A: 60, B: 8, C: 2, D: 3}
+
+Write a mathematical equation and generate the answer format starting with `Answer =`
+
+Answer = A _ C + B _ D
+
+Qt: At a restaurant, each adult meal costs $A and kids eat free. If a group of B people came in an C were kids, how much would it cost for the group to eat?
+Mapping: {A: 5, B: 15, C: 8}
+
+Write a mathematical equation and generate the answer format starting with `Answer =`
+
+Python Code
+Q: At a zoo, each adult ticket costs $A and children under 5 can enter for free.
+If a family of B adults and C children under 5 visit the zoo, what is the total cost for the family to enter?
+Mapping: {A: 12, B: 4, C: 2}
+
+Write a Python function that returns the answer.
+
+def zoo_cost(A, B, C):
+    return A * B
+
+Qt: At a store, shoes cost $A per pair and socks cost $B per pair.
+If a customer buys C pairs of shoes and D pairs of socks, what is the total cost of the purchase?
+
+Write a Python function that returns the answer.
+
+def store_cost(A, B, C, D):
+    return (A * C) + (B * D)
+
+Qt: At a restaurant, each adult costs $A and kids eat free.
+If a group of B people came in and C were kids, how much would it cost for the group to eat?
+
+Write a Python function that returns the answer.

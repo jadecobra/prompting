@@ -1,0 +1,21 @@
+temperature
+how random is the output?
+how can I get more unpredictable and creative results? high temperature
+how can I get more common and conservative output/results? low temperature
+
+what is top p?
+what is nucleus sampling?
+
+how can I control the randomness of language model output?
+how can I set a threshold probability for answers?
+how can I control the degree of randomness and diversity in the generated text?
+
+high temperature/top p -> more unpredictable and interesting - more errors
+low temperature/top -> more conservative/predictable - repetitive/uninteresting
+
+are we generating text?
+does this task require accuracy?
+
+how can we improve accuracy and factual correctness?
+
+how do hyperparameters affect model output?

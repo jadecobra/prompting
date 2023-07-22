@@ -1,0 +1,108 @@
+prompting
+
+- instruction_prompting
+- role_prompting
+- few_shot_prompting
+
+
+prompting
+write an x about the y of z?
+generate a list of x elements of y?
+generate a set of x elements for y?
+how can I get a starting point to this?
+write a python test for x using y?
+what is EQUATION?
+
+Make sure your answer is exactly correct. What is EQUATION? Make sure your answer is exactly correct
+
+instruction_prompting
+do x y way
+do x
+do x, y, z, here's an example
+request
+
+role_prompting
+context
+request
+you are x, do y
+
+few_shot_prompting
+few_example_prompting
+example 1
+example 2
+example 3
+example N
+request
+
+examples
+request
+
+how do we structure examples?
+input: classification
+input: x
+
+what is an exemplar?
+input-output pairs
+key: value - exemplar
+
+how do I want the output to be structured?
+what is the structure of the input?
+what is the structure of the output?
+
+how can we make output more consistent?
+
+shot prompting
+0 shot prompting - len(examples) == 0
+1 shot prompting - len(examples) == 1
+few shot prompting - len(examples) >= 2
+
+what is the most basic form of prompting? 0 shot
+prompt(example) -> response
+
+def prompt(*args, **kwargs):
+    return response
+
+0 shot
+prompt(2+2):
+
+1 shot
+prompt(3+3): 6
+prompt(2+2):
+
+few shot
+prompt(3+3): 6
+prompt(5+5): 10
+prompt(2+2):
+
+Add 2+2:
+
+Add 3+3: 6
+Add 2+2:
+
+Add 3+3: 6
+Add 5+5: 10
+Add 2+2:
+
+prompt
+context
+instructions
+examples
+
+what are the parts of a prompt?
+what is the role?
+what is the task?
+what is the question?
+what is the context?
+what are the examples?
+
+should we put instructions last?
+
+how can we learn without parameter updates?
+how can we learn in context?
+
+key value pairs help give the AI context. e.g.
+Q: question
+A:
+
+Email:
+Summary:

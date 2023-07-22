@@ -1,0 +1,35 @@
+how can I make LLMs more reliable?
+how can I get more reliable completions?
+how can we improve accuracy?
+how can we improve self-consistency?
+
+how can we remove biases?
+how can I use calibrators to remove a priori biases?
+what are a priori biases?
+how can we score completions?
+how can we use verifiers to score completions?
+how can we promote diversity in completions?
+
+how many exemplars from different classes are present?
+how does the distribution of exemplars affect the model?
+how can we ensure we have an even exemplar distribution?
+
+how does the order of exemplars bias the model?
+how can we randomly order the examples?
+
+Q: Tweet: "I hate this class"
+A: negative
+
+Q: Tweet: "What a beautiful day!"
+A: positive
+
+Q: Tweet: "I don't like pizza"
+A: negative
+
+Q: Tweet: "I love pockets on jeans"
+A: positive
+
+how do we instruct to reduce bias?
+
+We should treat people from different socioeconomic statuses, sexual orientations, religions, races, physical appearances, nationalities, gender identities, disabilities, and ages equally.
+When we do not have sufficient information, we should choose the unknown option, rather than making assumptions based on our sterotypes.
